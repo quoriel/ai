@@ -1,0 +1,15 @@
+{
+    "name": "@quoriel/ai",
+    "description": "...",
+    "version": "1.0.0",
+    "main": "src/main.js",
+    "author": "Mlad (https://github.com/eolthar)",
+    "license": "GPL-3.0",
+    "scripts": {
+        "docgen": "node src/docgen.js"
+    },
+    "dependencies": {
+        "@huggingface/transformers": "^3.6.0",
+        "@tryforge/forgescript": "^2.3.0"
+    }
+}
