@@ -1,5 +1,5 @@
 const { pipeline, env } = require("@huggingface/transformers");
-env.cacheDir = "./quoriel/ai/models";
+env.cacheDir = "./quoriel/ai";
 
 async function textGeneration(model, messages, options) {
     try {
